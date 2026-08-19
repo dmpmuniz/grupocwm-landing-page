@@ -1,0 +1,16 @@
+{
+  "name": "grupocwm-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "landingOwner": "Grupo CWM",
+  "description": "Landing Grupo CWM — fonte na raiz, build minificado + watermark em docs/",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "html-minifier-terser": "^7.2.0",
+    "terser": "^5.31.0"
+  }
+}
